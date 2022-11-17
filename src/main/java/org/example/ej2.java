@@ -1,4 +1,5 @@
-import java.io.FileNotFoundException;
+package org.example;
+
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
@@ -7,8 +8,6 @@ import java.nio.charset.Charset;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
-import java.util.HashSet;
-import java.util.Set;
 
 
 public class ej2 {
